@@ -7,4 +7,7 @@ Jogo para treinar o versionamento de código.
 
 15/09/2026- Hoje vimos sobre Game Desaing de mecaninca para conseguirmos melhorar o nosso (GDD) e desenvolvemos uma atividade para melhor fixação.
 
-17/09/2026- Hoje iniciamos a programação do jogo 2D, trabalhamos o movimento horizontal onde o player pode andar para frente e para atrás.
+17/09/2026- Hoje iniciamos a programação do jogo 2D, trabalhamos o movimento horizontal onde o player pode andar para frente e para atrás. 
+
+
+22/09/2026 - Hoje programamos o pulo do jogo 2D e os movimentos.
