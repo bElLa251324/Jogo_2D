@@ -10,4 +10,6 @@ Jogo para treinar o versionamento de código.
 17/09/2026- Hoje iniciamos a programação do jogo 2D, trabalhamos o movimento horizontal onde o player pode andar para frente e para atrás. 
 
 
-22/09/2026 - Hoje programamos o pulo do jogo 2D e os movimentos.
+22/09/2026 - Hoje programamos o pulo e o movimento do jogo 2D e os movimentos.
+
+24/09/2026- Hoje fizemos o mapa do jogo 2D, revisamos o código antes de começar a mexer no mapa e aqueles que estavam com erro corrigimos e começamos a fazer o mapa, iremos finalizar o resto na proxima aula.
