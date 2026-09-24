@@ -24,11 +24,11 @@ public class player : MonoBehaviour
 
        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            rb.AddForce(new Vector2(0f, 5f), ForceMode2D.Impulse); // vai servir para pular
+            rb.AddForce(new Vector2(0f, 8f), ForceMode2D.Impulse); // vai servir para pular
         }
     }
 
-    void OnCollisionEnter2D(Collision collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
