@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class player : MonoBehaviour
 {
@@ -33,7 +34,13 @@ public class player : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true; // vai reconhecer quando o jogador estiver no chão
-        } 
+        }
+        {
+            if (collision.gameObject.CompareTag("Dano"))
+            {
+                SceneManager.LoadScene(0); 
+            }
+        }
     }
    void OnCollisionExit2D (Collision2D collision)
     {
