@@ -12,4 +12,6 @@ Jogo para treinar o versionamento de código.
 
 22/09/2026 - Hoje programamos o pulo e o movimento do jogo 2D.
 
-24/09/2026- Hoje fizemos o mapa do jogo 2D, revisamos o código antes de começar a mexer no mapa e aqueles que estavam com erro corrigimos e começamos a fazer o mapa, iremos finalizar o resto na proxima aula.
+24/09/2026- Hoje começamos a desenvolver o mapa do jogo 2D, revisamos o código antes de começar a mexer no mapa e aqueles que estavam com erro corrigimos e começamos a fazer o mapa, iremos finalizar o resto na proxima aula.
+
+29/09/2026- Hoje finalizamos o mapa do jogo 2D, conhecemos a Pefabs que é um atalho utilizado para ajudar na repetição de um ou mais objetos sem precisar fazer tudo do zero, fiz a utilização do Pefabs para ter um jogo mais dinâmico e assim conseguir desenvolver vários arbustos, nuvens e uma árvore.  
