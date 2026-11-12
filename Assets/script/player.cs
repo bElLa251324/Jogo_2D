@@ -1,6 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Runtime.CompilerServices;
 
 public class player : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class player : MonoBehaviour
     private Rigidbody2D rb;
 
     private bool isGrounded = false;
+
+    public MenuScene menu;
    
     void Start()
     {
@@ -20,7 +23,7 @@ public class player : MonoBehaviour
     void Update()
     {
         float moveHorizontal = Input.GetAxis("Horizontal"); // vai fazer reconhecer o movimento horizontal
-
+      
         rb.linearVelocity = new Vector2 (moveHorizontal * speed, rb.linearVelocity.y);
 
        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
@@ -35,12 +38,11 @@ public class player : MonoBehaviour
         {
             isGrounded = true; // vai reconhecer quando o jogador estiver no chão
         }
+        if (collision.gameObject.CompareTag("Dano"))
         {
-            if (collision.gameObject.CompareTag("Dano"))
-            {
-                SceneManager.LoadScene(0); 
-            }
+            menu.MostarGameOver();
         }
+
     }
    void OnCollisionExit2D (Collision2D collision)
     {
